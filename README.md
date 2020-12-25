@@ -2,11 +2,11 @@
 
 Research on identifying the text-image relationship in tweets.
 
-Paper: http://www.preotiuc.ro/papers/textimage19acl.pdf
+Paper: https://www.aclweb.org/anthology/P19-1272.pdf
+
+Slides: https://www.aclweb.org/anthology/attachments/P19-1272.Presentation.pdf
 
 Data: textimage-data.csv
-
-Code: To be uploaded soon
 
 Citation:
 
