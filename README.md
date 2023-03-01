@@ -16,7 +16,7 @@ Alternatively, to access the full data set for reproducibility purposes, includi
 
 ## Task description:
 
-We define the types of semantic relationships that can exist between the content of the text and the image by splitting them into two tasks. Combining the labels of the two binary tasks described below gives rise to four types of text-image relationships (identified in the file by the non-zero value in the following columns: ``image_adds_text_repr`` `image_adds_text_notrepr`` ``image_notadds_text_repr`` ``image_notadds_text_notrepr``).
+We define the types of semantic relationships that can exist between the content of the text and the image by splitting them into two tasks. Combining the labels of the two binary tasks described below gives rise to four types of text-image relationships (identified in the file by the non-zero value in the following columns: ``image_adds_text_repr image_adds_text_notrepr image_notadds_text_repr image_notadds_text_notrepr``).
 
 The first task (column ``text_is_represented``) is centered on the role of the text to the tweet’s semantics and focuses on identifying if there is semantic overlap between the context of the text and the image. This task is the defined using the following guidelines:
 1. Some or all of the content words in the text are represented in the image (``text_is_represented`` value of 1)
