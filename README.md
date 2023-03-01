@@ -1,16 +1,18 @@
-# Text-Image Relationship in Twitter
+# Text-Image Relationship in Tweets
 
 An annotated Twitter data setof image tweets annotated with four classes which express whether the text or the image provides additional information to the other modality.
 
-Paper: https://www.aclweb.org/anthology/P19-1272.pdf
+## Paper: https://www.aclweb.org/anthology/P19-1272.pdf
 
-Slides: https://www.aclweb.org/anthology/attachments/P19-1272.Presentation.pdf
+## Presentation: https://www.aclweb.org/anthology/attachments/P19-1272.Presentation.pdf
 
-Data: textimage.csv
+## Data
+
+The data set file (textimage.csv) contains tweet_ids, annotated labels and identifies the data splits used in the original paper.
 
 For accessing the full data set, including the raw tweet text and images, please contact the authors: Alakananda (v.alakananda@gmail.com) and Daniel (danielpr@gmail.com)
 
-Task description:
+## Task description:
 
 We define the types of semantic relationships that can exist between the content of the text and the image by splitting them into two tasks. Combining the labels of the two binary tasks described below gives rise to four types of text-image relationships (identified in the file by the non-zero value in the following columns: "image_adds_text_repr","image_adds_text_notrepr","image_notadds_text_repr","image_notadds_text_notrepr").
 
