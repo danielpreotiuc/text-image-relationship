@@ -12,8 +12,6 @@ The data set file (``textimage.csv``) contains tweet ids, annotated labels and i
 
 The data set can be rehydrated using the [Twitter API](https://developer.twitter.com/en/docs/twitter-api) using the tweet ids.
 
-Alternatively, to access the full data set for reproducibility purposes, including the raw tweet text and images, please contact the authors: Alakananda (v.alakananda@gmail.com) and Daniel (danielpr@gmail.com).
-
 ## Task description:
 
 We define the types of semantic relationships that can exist between the content of the text and the image by splitting them into two tasks. Combining the labels of the two binary tasks described below gives rise to four types of text-image relationships (identified in the file by the non-zero value in the following columns: ``image_adds_text_repr image_adds_text_notrepr image_notadds_text_repr image_notadds_text_notrepr``).
